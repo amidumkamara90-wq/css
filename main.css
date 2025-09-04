@@ -1,0 +1,54 @@
+body{
+
+    background-color: lightblue;
+    font-size: 1rem;
+}
+h1{
+    color: rgb(233, 38, 38);
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    border: 10px double black;
+    border-radius: 20px;  
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+p{
+    color: green;
+    font-size: 1.5rem;
+    margin: 10px 20px;
+    line-height: 1.6;
+}
+ol{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.1);
+    color: purple;
+    font-size: 1.2rem;
+    margin: 20px;
+    list-style-type: decimal;
+    list-style-position: inside;
+    border: 10px outset purple;
+    width: 50%;
+
+
+}
+ol,li{
+    margin: 10px 0;
+    color: blue;
+    font-weight: bold;
+}
+.element{
+    color: red;
+    font-style: italic;
+    text-decoration: underline;
+}
+#id{
+    color: orange;
+    font-weight: bold;
+    text-transform: uppercase;
+}
