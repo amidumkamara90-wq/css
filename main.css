@@ -4,14 +4,14 @@
 
 body{
 
-     background-color: hwb(192 84% 14%);
+     background-color: #3FBDBB;
     font-size: 1rem;
      font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
 }
 h1{
-    color: rgb(74, 38, 233);
+    color: #040D18;
     text-align: center;
     font-size: 3rem;
     text-transform: uppercase;
@@ -25,7 +25,7 @@ h1{
     
 }
 p{
-    color: green;
+    color: #040D18;
     font-size: 1.5rem;
     margin: 10px 20px;
     line-height: 1.6;
@@ -35,7 +35,7 @@ ul{
     padding: 20px;
     border-radius: 20px;
     box-shadow: 3px 3px 6px rgba(0,0,0,0.1);
-    color: #000;
+    color: #b11a72;
     font-size: 1.2rem;
     margin: 20px;
     list-style-type: circle;
@@ -45,15 +45,14 @@ ul{
 
 
 }
-ul,li{
-    margin: 10px 0;
-    color: rgb(160, 34, 149);
-    font-weight: bold;
-}
-.element{
-    color: red;
-    font-style: italic;
+
+h2{
+    color: darkblue;
+    font-size: 2rem;
+    text-align: left;
     text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 a {
