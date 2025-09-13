@@ -1,10 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 body{
 
-    background-color: lightblue;
+     background-color: hwb(192 84% 14%);
     font-size: 1rem;
+     font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 h1{
-    color: rgb(233, 38, 38);
+    color: rgb(74, 38, 233);
     text-align: center;
     font-size: 3rem;
     text-transform: uppercase;
@@ -15,6 +22,7 @@ h1{
     border-radius: 20px;  
     padding: 10px;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    
 }
 p{
     color: green;
@@ -22,24 +30,24 @@ p{
     margin: 10px 20px;
     line-height: 1.6;
 }
-ol{
+ul{
     background-color: white;
     padding: 20px;
     border-radius: 20px;
     box-shadow: 3px 3px 6px rgba(0,0,0,0.1);
-    color: purple;
+    color: #000;
     font-size: 1.2rem;
     margin: 20px;
-    list-style-type: decimal;
+    list-style-type: circle;
     list-style-position: inside;
     border: 10px outset purple;
     width: 50%;
 
 
 }
-ol,li{
+ul,li{
     margin: 10px 0;
-    color: blue;
+    color: rgb(160, 34, 149);
     font-weight: bold;
 }
 .element{
@@ -47,8 +55,28 @@ ol,li{
     font-style: italic;
     text-decoration: underline;
 }
-#id{
-    color: orange;
-    font-weight: bold;
-    text-transform: uppercase;
+
+a {
+    color: brown;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 20px;
+    display: inline-block;
+    transition: all 0.3s ease;
+    opacity: 0.9;
+
+
+}
+
+a:hover {
+    color: darkorange;
+    text-decoration: underline;
+    font-size: 1.3rem;
+    transition: all 0.3s ease;
+}
+a:active {
+    color: red;
+}
+a:visited {
+    color: purple;
 }
